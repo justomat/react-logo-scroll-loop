@@ -1,10 +1,31 @@
 {
-  "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build",
-    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
-  },
-  "devDependencies": {
-    "snowpack": "^3.3.7"
-  }
+	"scripts": {
+		"start": "snowpack dev",
+		"build": "snowpack build",
+		"test": "echo \"This template does not include a test runner by default.\" && exit 1"
+	},
+	"devDependencies": {
+		"@jihchi/plugin-rescript": "^1.0.0",
+		"rescript": "^9.1.2",
+		"@babel/eslint-parser": "^7.13.0",
+		"@snowpack/plugin-react-refresh": "^2.5.0",
+		"@snowpack/plugin-sass": "^1.4.0",
+		"@typescript-eslint/eslint-plugin": "^4.0.0",
+		"@typescript-eslint/parser": "^4.0.0",
+		"babel-preset-react-app": "^10.0.0",
+		"eslint": "^7.5.0",
+		"eslint-config-react-app": "^6.0.0",
+		"eslint-plugin-flowtype": "^5.2.0",
+		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-jsx-a11y": "^6.3.1",
+		"eslint-plugin-react": "^7.20.3",
+		"eslint-plugin-react-hooks": "^4.0.8",
+		"prettier": "^2.3.2",
+		"snowpack": "^3.3.7"
+	},
+	"dependencies": {
+		"@rescript/react": "^0.10.3",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	}
 }
